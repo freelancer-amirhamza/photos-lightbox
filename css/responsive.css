@@ -1,0 +1,161 @@
+/* media query tablet display 767px >= */
+@media (max-width: 767px) {
+  .navbar {
+    height: 90px;
+  }
+.navbar_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.navbar_contacts i{
+font-size: 25px;
+text-decoration: none;
+}
+.navbar_contacts i,a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+    }
+
+  .slider-section {
+    height: 90vh;
+  }
+  .slider {
+    width: 600px;
+    height: 450px;
+    margin-top: 45px;
+
+  }
+  .slides {
+    height: 450px;
+  }
+
+  .slide img {
+    width: 600px;
+    height: 450px;
+  }
+  .navigation-manual {
+    width: 95%;
+  }
+  .navigation-auto {
+    width: 95%;
+    margin-top: 400px;
+  }
+  /* css for Photo gallery  */
+  .image-grid {
+    width: 100%;
+  }
+  .image-grid img {
+    width: 30%;
+    margin: 10px;
+  }
+  /* css for image light box */
+
+  .image_lightbox {
+    width: 70%;
+  }
+  .image_lightbox img {
+    /* height: 100%; */
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .image_lightbox i {
+    margin-right: 10px;
+  }
+  /* css for footer */
+
+  .footer_section {
+    background: rgb(53, 52, 52);
+    width: 100%;
+    background-size: 100%;
+    height: 105vh;
+  }
+
+  .footer_contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-top: 50px;
+  }
+  .footer_about {
+    color: #ffffff;
+    width: 55%;
+    text-align: center;
+    height: 100%;
+  }
+  .footer_contacts {
+    padding-top: 8%;
+  }
+
+  .footer_socile_links {
+    padding-top: 8%;
+  }
+}
+
+/* media query  display 575px >= */
+@media (max-width: 575px) {
+
+    .navbar_contacts i,a{
+    font-size: 18px;
+    }
+  .slider-section {
+    height: 90vh;
+  }
+  .slider {
+    width: 95%;
+    height: 400px;
+    margin-top: 60px;
+
+  }
+  .slides {
+    height: 400px;
+  }
+
+  .slide img {
+    width: 500px;
+    height: 450px;
+  }
+  .navigation-manual {
+    width: 95%;
+  }
+  .navigation-auto {
+    width: 95%;
+    margin-top: 350px;
+  }
+  /* css for Photo gallery  */
+  .image-grid {
+    width: 100%;
+  }
+  .image-grid img {
+    width: 40%;
+    margin: 8px;
+  }
+  /* css for image light box */
+
+  .image_lightbox {
+    width: 70%;
+  }
+  .image_lightbox img {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .image_lightbox i {
+    margin-right: 8px;
+    font-size: 25px;
+    padding: 5px 0px 0px 0px;
+  }
+
+  /* css for footer */
+
+  .footer_section {
+    width: 100%;
+    background-size: 100%;
+    height: 105vh;
+  }
+}
